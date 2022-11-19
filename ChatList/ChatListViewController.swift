@@ -11,13 +11,17 @@ class ChatListViewController: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!
     
-    let chats: [ChatModel] = ChatModel.list
+    var chats: [ChatModel] = ChatModel.list
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         collectionView.dataSource = self
         collectionView.delegate = self
+        
+        chats = chats.sorted(by: { (chat1, chat2) in
+            return chat1.date > chat2.date
+        })
     }
 }
 
