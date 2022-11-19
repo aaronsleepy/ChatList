@@ -17,6 +17,7 @@
 		9340ECEB2928C19D00D228AE /* ChatListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340ECEA2928C19D00D228AE /* ChatListUITests.swift */; };
 		9340ECED2928C19D00D228AE /* ChatListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340ECEC2928C19D00D228AE /* ChatListUITestsLaunchTests.swift */; };
 		9340ECFA2928C6D300D228AE /* ChatListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340ECF92928C6D300D228AE /* ChatListCollectionViewCell.swift */; };
+		9340ECFC2928C81700D228AE /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340ECFB2928C81700D228AE /* ChatModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		9340ECEA2928C19D00D228AE /* ChatListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListUITests.swift; sourceTree = "<group>"; };
 		9340ECEC2928C19D00D228AE /* ChatListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9340ECF92928C6D300D228AE /* ChatListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListCollectionViewCell.swift; sourceTree = "<group>"; };
+		9340ECFB2928C81700D228AE /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				9340ECCB2928C19C00D228AE /* SceneDelegate.swift */,
 				9340ECCD2928C19C00D228AE /* ChatListViewController.swift */,
 				9340ECF92928C6D300D228AE /* ChatListCollectionViewCell.swift */,
+				9340ECFB2928C81700D228AE /* ChatModel.swift */,
 				9340ECCF2928C19C00D228AE /* Main.storyboard */,
 				9340ECD22928C19D00D228AE /* Assets.xcassets */,
 				9340ECD42928C19D00D228AE /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9340ECFC2928C81700D228AE /* ChatModel.swift in Sources */,
 				9340ECFA2928C6D300D228AE /* ChatListCollectionViewCell.swift in Sources */,
 				9340ECCE2928C19C00D228AE /* ChatListViewController.swift in Sources */,
 				9340ECCA2928C19C00D228AE /* AppDelegate.swift in Sources */,
