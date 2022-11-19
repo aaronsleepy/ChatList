@@ -73,6 +73,12 @@
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="393" height="100"/>
+                                        <connections>
+                                            <outlet property="chatLabel" destination="xT3-RV-feb" id="OJs-1F-GrQ"/>
+                                            <outlet property="dateLabel" destination="QdP-Io-fRe" id="A68-HB-yrF"/>
+                                            <outlet property="nameLabel" destination="5FT-Ew-fJh" id="8Og-tr-o7x"/>
+                                            <outlet property="thumbnailImageView" destination="ncs-vv-Z4J" id="Btp-7w-VGS"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>

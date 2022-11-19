@@ -9,4 +9,10 @@ import UIKit
 
 class ChatListCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var thumbnailImageView: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var chatLabel: UILabel!
+    @IBOutlet weak var dateLabel: UILabel!
+    
+    
 }
