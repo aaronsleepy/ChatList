@@ -14,6 +14,11 @@ class ChatListCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var chatLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        thumbnailImageView.layer.cornerRadius = 10
+    }
+    
     func configure(_ chat: ChatModel) {
         thumbnailImageView.image = UIImage(named: chat.name)
         nameLabel.text = chat.name
