@@ -27,7 +27,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="qWN-ZL-Irb">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ChatListCollectionViewCell" id="qWN-ZL-Irb" customClass="ChatListCollectionViewCell" customModule="ChatList" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="CK6-Hi-O9q">
@@ -47,13 +47,13 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="대화내용" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xT3-RV-feb">
-                                                    <rect key="frame" x="116" y="42" width="62.333333333333314" height="21.666666666666671"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="대화내용" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xT3-RV-feb">
+                                                    <rect key="frame" x="115.99999999999999" y="42" width="62.333333333333329" height="21.666666666666671"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="4월 4일" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QdP-Io-fRe">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4월 4일" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QdP-Io-fRe">
                                                     <rect key="frame" x="319" y="39.333333333333336" width="58" height="21.666666666666664"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -65,7 +65,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="QdP-Io-fRe" secondAttribute="trailing" constant="16" id="7dE-1p-nPv"/>
                                                 <constraint firstItem="xT3-RV-feb" firstAttribute="leading" secondItem="5FT-Ew-fJh" secondAttribute="leading" id="LeT-OY-CQk"/>
                                                 <constraint firstItem="ncs-vv-Z4J" firstAttribute="leading" secondItem="CK6-Hi-O9q" secondAttribute="leading" constant="16" id="NF7-Vh-9Ih"/>
-                                                <constraint firstItem="QdP-Io-fRe" firstAttribute="leading" secondItem="xT3-RV-feb" secondAttribute="trailing" constant="10" id="aeQ-Mi-vXe"/>
+                                                <constraint firstItem="QdP-Io-fRe" firstAttribute="leading" secondItem="xT3-RV-feb" secondAttribute="trailing" constant="140.66666666666669" id="aeQ-Mi-vXe"/>
                                                 <constraint firstItem="ncs-vv-Z4J" firstAttribute="centerY" secondItem="CK6-Hi-O9q" secondAttribute="centerY" id="eZM-mI-7bb"/>
                                                 <constraint firstItem="5FT-Ew-fJh" firstAttribute="leading" secondItem="ncs-vv-Z4J" secondAttribute="trailing" constant="20" id="jfO-RV-Yv6"/>
                                                 <constraint firstItem="xT3-RV-feb" firstAttribute="top" secondItem="5FT-Ew-fJh" secondAttribute="bottom" constant="5" id="mHf-XW-7nl"/>
