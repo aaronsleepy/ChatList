@@ -20,7 +20,7 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="5ws-HT-nQQ">
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="1iy-1Y-ogl">
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="1iy-1Y-ogl">
                                     <size key="itemSize" width="393" height="100"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -47,13 +47,13 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="대화내용" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xT3-RV-feb">
-                                                    <rect key="frame" x="115.99999999999999" y="42" width="62.333333333333329" height="21.666666666666671"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="대화내용" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xT3-RV-feb">
+                                                    <rect key="frame" x="116" y="42" width="62.333333333333314" height="21.666666666666671"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4월 4일" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QdP-Io-fRe">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="4월 4일" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QdP-Io-fRe">
                                                     <rect key="frame" x="319" y="39.333333333333336" width="58" height="21.666666666666664"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -65,7 +65,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="QdP-Io-fRe" secondAttribute="trailing" constant="16" id="7dE-1p-nPv"/>
                                                 <constraint firstItem="xT3-RV-feb" firstAttribute="leading" secondItem="5FT-Ew-fJh" secondAttribute="leading" id="LeT-OY-CQk"/>
                                                 <constraint firstItem="ncs-vv-Z4J" firstAttribute="leading" secondItem="CK6-Hi-O9q" secondAttribute="leading" constant="16" id="NF7-Vh-9Ih"/>
-                                                <constraint firstItem="QdP-Io-fRe" firstAttribute="leading" secondItem="xT3-RV-feb" secondAttribute="trailing" constant="140.66666666666669" id="aeQ-Mi-vXe"/>
+                                                <constraint firstItem="QdP-Io-fRe" firstAttribute="leading" secondItem="xT3-RV-feb" secondAttribute="trailing" constant="10" id="aeQ-Mi-vXe"/>
                                                 <constraint firstItem="ncs-vv-Z4J" firstAttribute="centerY" secondItem="CK6-Hi-O9q" secondAttribute="centerY" id="eZM-mI-7bb"/>
                                                 <constraint firstItem="5FT-Ew-fJh" firstAttribute="leading" secondItem="ncs-vv-Z4J" secondAttribute="trailing" constant="20" id="jfO-RV-Yv6"/>
                                                 <constraint firstItem="xT3-RV-feb" firstAttribute="top" secondItem="5FT-Ew-fJh" secondAttribute="bottom" constant="5" id="mHf-XW-7nl"/>
